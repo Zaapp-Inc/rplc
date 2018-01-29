@@ -65,7 +65,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "400 fish"
+            argument = "400 200"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

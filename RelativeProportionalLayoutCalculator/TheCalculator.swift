@@ -23,6 +23,10 @@ class TheCalculator {
     {
         for aStr in args
         {
+            if(aStr == args[0])
+            {
+                continue
+            }
             guard let _ = Double(aStr) else {
                 writeToStdOut(str: usageDescription)
                 exit(EXIT_FAILURE)
