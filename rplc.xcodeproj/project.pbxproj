@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D6EC6A45201FAA5600C9F3BA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC6A44201FAA5600C9F3BA /* main.swift */; };
+		D6EC6A4C201FBD3100C9F3BA /* TheCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC6A4B201FBD3100C9F3BA /* TheCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D6EC6A41201FAA5600C9F3BA /* RelativeProportionalLayoutCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RelativeProportionalLayoutCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EC6A41201FAA5600C9F3BA /* rplc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rplc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6EC6A44201FAA5600C9F3BA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D6EC6A4B201FBD3100C9F3BA /* TheCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +51,7 @@
 		D6EC6A42201FAA5600C9F3BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6EC6A41201FAA5600C9F3BA /* RelativeProportionalLayoutCalculator */,
+				D6EC6A41201FAA5600C9F3BA /* rplc */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D6EC6A44201FAA5600C9F3BA /* main.swift */,
+				D6EC6A4B201FBD3100C9F3BA /* TheCalculator.swift */,
 			);
 			path = RelativeProportionalLayoutCalculator;
 			sourceTree = "<group>";
@@ -65,9 +68,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6EC6A40201FAA5600C9F3BA /* RelativeProportionalLayoutCalculator */ = {
+		D6EC6A40201FAA5600C9F3BA /* rplc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6EC6A48201FAA5600C9F3BA /* Build configuration list for PBXNativeTarget "RelativeProportionalLayoutCalculator" */;
+			buildConfigurationList = D6EC6A48201FAA5600C9F3BA /* Build configuration list for PBXNativeTarget "rplc" */;
 			buildPhases = (
 				D6EC6A3D201FAA5600C9F3BA /* Sources */,
 				D6EC6A3E201FAA5600C9F3BA /* Frameworks */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = RelativeProportionalLayoutCalculator;
+			name = rplc;
 			productName = RelativeProportionalLayoutCalculator;
-			productReference = D6EC6A41201FAA5600C9F3BA /* RelativeProportionalLayoutCalculator */;
+			productReference = D6EC6A41201FAA5600C9F3BA /* rplc */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D6EC6A3C201FAA5600C9F3BA /* Build configuration list for PBXProject "RelativeProportionalLayoutCalculator" */;
+			buildConfigurationList = D6EC6A3C201FAA5600C9F3BA /* Build configuration list for PBXProject "rplc" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6EC6A40201FAA5600C9F3BA /* RelativeProportionalLayoutCalculator */,
+				D6EC6A40201FAA5600C9F3BA /* rplc */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6EC6A45201FAA5600C9F3BA /* main.swift in Sources */,
+				D6EC6A4C201FBD3100C9F3BA /* TheCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6EC6A3C201FAA5600C9F3BA /* Build configuration list for PBXProject "RelativeProportionalLayoutCalculator" */ = {
+		D6EC6A3C201FAA5600C9F3BA /* Build configuration list for PBXProject "rplc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6EC6A46201FAA5600C9F3BA /* Debug */,
@@ -265,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6EC6A48201FAA5600C9F3BA /* Build configuration list for PBXNativeTarget "RelativeProportionalLayoutCalculator" */ = {
+		D6EC6A48201FAA5600C9F3BA /* Build configuration list for PBXNativeTarget "rplc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6EC6A49201FAA5600C9F3BA /* Debug */,
