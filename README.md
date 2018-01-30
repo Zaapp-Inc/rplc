@@ -2,9 +2,13 @@
 Calculate the {Multiplier} value for relative constraints in Interface Builder.
 
 This program assumes you have included the following constraints from the Subview to the Superview: 
+
   Center Horizontally
+  
   Center Vertically
+  
   Equal Widths
+  
   Equal Heights
   
   # Usage: 
