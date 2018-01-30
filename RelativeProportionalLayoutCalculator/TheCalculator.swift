@@ -10,12 +10,14 @@ import Foundation
 
 class TheCalculator {
 
-    struct hitBox {
+    struct hitBox
+    {
         var x: Double!
         var y: Double!
         var width: Double!
         var height: Double!
     }
+
     let superViewWidth: Double
     let superViewHeight: Double
 
@@ -32,6 +34,7 @@ class TheCalculator {
                 exit(EXIT_FAILURE)
             }
         }
+
         superViewWidth = Double(args[1])!
         superViewHeight = Double(args[2])!
 
@@ -44,7 +47,6 @@ class TheCalculator {
             calculateValuesForBox(aBox: aHitbox)
         }
     }
-
 
     func calculateValuesForBox(aBox: hitBox){
         var centerXString: String?
@@ -60,9 +62,9 @@ class TheCalculator {
 
         centerXString = String(format: "%.1f:%.1f", arguments: [centerX, superCenterX])
         centerYString = String(format: "%.1f:%.1f", arguments: [centerY, superCenterY])
-
         propWidthString = String(format: "%.1f:%.1f", arguments: [aBox.width, superViewWidth])
         propHeightString = String(format: "%.1f:%.1f", arguments: [aBox.height, superViewHeight])
+
         let result = String(format: " Center X: %@ \n Center Y: %@ \n Prop Width: %@ \n Prop Height: %@ \n", arguments: [centerXString!, centerYString!, propWidthString!, propHeightString!])
 
         writeToStdOut(str: result)
@@ -98,7 +100,6 @@ class TheCalculator {
             let additionalHitBox = hitBox(x: Double(newArgs[0])!, y: Double(newArgs[1])!, width: Double(newArgs[2])!, height: Double(newArgs[3])!)
             calculateValuesForBox(aBox: additionalHitBox)
             multiCalc()
-
         }
     }
 }
